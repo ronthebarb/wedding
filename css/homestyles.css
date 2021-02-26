@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Ronan018BW.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: max-content;
+}
+header{
+    margin-bottom: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #ff6f1d;
+}
+main{
+    color: #ff6f1d;
+    text-align: left;
+    font-family: "Freestyle Script";
+    font-size: 80px;
+    padding-left: 50px;
+    padding-bottom: 2px;
+}
+main p{
+    margin: 50px;
+}
+main h4{
+    padding-top: 0;
+    margin: -35px;
+}
+
+span{
+    position: center;
+    display: block;
+    text-align: center;
+    border: 100px solid white;
+    height: 0;
+    width: 0;
+    opacity: 0%;
+    margin-left: 45%;
+    margin-top: 20%;
+
+}
+
+span:hover{
+    background-image: url("coloredpop.jpg");
+    height: 1200px;
+    width: 800px;
+    opacity: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border: 10px solid #ff6f1d;
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    .circle {
+        display: none;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    main p {
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    main h4 {
+        position: relative;
+
+    }
+}
+    @media only screen and (max-width: 600px) {
+        span {
+            display: none;
+        }
+
+        main p {
+            margin-top: 50px;
+            position: relative;
+
+        }
+
+        main h4 {
+            position: static;
+        }
+
+    }
